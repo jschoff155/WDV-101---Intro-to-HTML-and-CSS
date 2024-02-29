@@ -5,10 +5,11 @@ img{
 .topNav{
     display:flex;
     justify-content: space-around;
-    margin-left:10%;
-    margin-right:10%;
+    margin-left:5%;
+    margin-right:5%;
 }
 .header{
     text-align: center;
     height: 20vh;
+    margin-bottom:5em;
 }
