@@ -1,0 +1,14 @@
+img{
+    border-radius: 50%;
+    height:90%;
+}
+.topNav{
+    display:flex;
+    justify-content: space-around;
+    margin-left:10%;
+    margin-right:10%;
+}
+.header{
+    text-align: center;
+    height: 20vh;
+}

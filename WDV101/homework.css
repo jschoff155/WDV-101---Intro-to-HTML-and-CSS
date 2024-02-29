@@ -1,0 +1,20 @@
+.AssignmentList{
+    display:grid;
+    grid-template-columns: auto auto auto;
+}
+.AssignmentBlock{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-style:solid;
+    border-radius:5px;
+    margin:10px;
+}
+.AssignmentBlockContent{
+    display:block;
+    margin:20px;
+    
+}
+.MonthLabel{
+    text-align: center;   
+}
