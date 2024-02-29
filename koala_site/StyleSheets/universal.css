@@ -1,3 +1,21 @@
-header>img{
+*{
+    margin:0;
+    padding:0;
+}
+img{
     width:100%;
+}
+nav>ul{
+    display:flex;
+    justify-content: space-around;
+    background-color: #3DDC97;
+    padding:20px;
+}
+nav>ul>li{
+    font-size: 32px;
+    list-style-type:none;
+}
+nav>ul>li>a{
+    color:black;
+    text-decoration: none;
 }
