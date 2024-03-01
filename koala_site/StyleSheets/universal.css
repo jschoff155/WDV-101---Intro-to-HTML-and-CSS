@@ -90,3 +90,15 @@ nav>ul>li>a{
     text-decoration: underline;
     margin-bottom: 5px;
 }
+.aboutBeginningParagraph{
+    text-align: center;
+    margin-left:5%;
+    margin-right:5%;
+}
+.additionalKoalaInfo{
+    column-count: 2;
+    margin-top:5vh;
+}
+.column{
+    padding:20px
+}
