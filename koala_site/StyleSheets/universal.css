@@ -55,3 +55,19 @@ nav>ul>li>a{
 .paragraphArea{
     margin:20px;
 }
+.faqHeader{
+    background-color: green;
+    height:5vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.FaqItem{
+    margin:20px;
+    list-style: none;
+}
+.FaqQuestion{
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
