@@ -1,9 +1,16 @@
+@font-face {
+    font-family: "Open_Sans";
+    src: url(../Open_Sans/static/OpenSans-Medium.ttf);
+   }
+
 *{
     margin:0;
     padding:0;
 }
+
 h1{
     font-size: 32px;
+    font-family: "Open_Sans";
 }
 h2{
     font-size:28px;
@@ -15,6 +22,7 @@ h3, h4{
 }
 p, li{
     font-size: 22px;
+    
 }
 header>img{
     width:100%;
@@ -41,6 +49,7 @@ nav>ul{
 nav>ul>li{
     font-size: 32px;
     list-style-type:none;
+    font-family: "Open_Sans";
 }
 nav>ul>li>a{
     color:black;
