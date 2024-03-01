@@ -7,7 +7,9 @@
     margin:0;
     padding:0;
 }
-
+main{
+   width:80%;
+}
 h1{
     font-size: 32px;
     font-family: "Open_Sans";
@@ -30,6 +32,14 @@ header>img{
     margin:0px;
     padding:0px;
     border-radius:0%;
+}
+.topBanner{
+    background-color: green;
+    height:5vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
 }
 img{
     width:300px;
