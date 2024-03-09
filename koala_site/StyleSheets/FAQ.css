@@ -1,1 +1,11 @@
-
+.KoalaImagesLine{
+    display:flex;
+    justify-content: space-between;
+}
+.FaqArea{
+    column-count: 3;
+}
+.KoalaImagesLine, .FaqArea{
+    margin-left:5%;
+    margin-right:5%;
+}
