@@ -5,3 +5,22 @@
 #EEDFAE - Cream
 #3E2723 - Black
 */
+
+.contentArea{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+h2{
+    margin-top:10px;
+}
+h3{
+    margin-top:10px;
+}
+.primaryContent{
+    display:flex;
+    margin-right:5%;
+    margin-left:5%;
+}
+.contentArea{
+    width:60%;
+}
