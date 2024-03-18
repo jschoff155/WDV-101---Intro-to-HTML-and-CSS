@@ -1,6 +1,15 @@
+/*
+#800000 - Maroon
+#DAA520 - Gold
+#6d4c41 - Brown
+#EEDFAE - Cream
+#3E2723 - Black
+*/
+
 *{
     margin:0;
     padding:0;
+    color:#3E2723;
 }
 h1{
     font-size:28px;
@@ -18,12 +27,13 @@ p, li{
 #top{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Assets/ChocCandyBanner.avif");
     height:10vh;
-    color:white;
+    color:#EEDFAE;
 }
 .topContent>h1{
     display:flex;
     justify-content: center;
     align-items: center;
+    color:#EEDFAE;
 }
 .topContent>ul{
     display:flex;
@@ -34,9 +44,11 @@ p, li{
 ul>li{
     list-style: none;
 }
-ul>li>a{
-    color: white;
+.topContent>ul>li>a{
+    color:#EEDFAE;
     text-decoration: none;
-    
-    
+}
+a{
+    color:#3E2723;
+    text-decoration: none;
 }
