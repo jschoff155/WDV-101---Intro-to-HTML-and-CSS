@@ -6,3 +6,26 @@
 #3E2723 - Black
 */
 
+img{
+    width:200px;
+    height:200px;
+}
+.contentArea{
+    margin-left:5%;
+    margin-right:5%;
+}
+.questionContent{
+    margin:20px;
+    border-style:solid;
+    min-height:80px;
+    text-align: center;
+    border-color:#DAA520;
+    color:#EEDFAE;
+    background-color:#6d4c41;
+    margin-left:3%;
+    margin-right:3%;
+
+}
+.answer, .question{
+    margin-top:10px;
+}
