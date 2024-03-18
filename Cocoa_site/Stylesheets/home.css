@@ -6,6 +6,10 @@
 #3E2723 - Black
 */
 
+h2,h3,p{
+    color:#3e2723;
+}
+
 .contentArea{
     margin-top:10px;
     margin-bottom:10px;
@@ -16,6 +20,11 @@ h2{
 h3{
     margin-top:10px;
 }
+.introduction>p{
+    margin-top:5px;
+    margin-left:5%;
+    margin-right:5%;
+}
 .primaryContent{
     display:flex;
     margin-right:5%;
@@ -23,4 +32,33 @@ h3{
 }
 .contentArea{
     width:60%;
+    margin-left:3%;
+    margin-right:3%;
+}
+.additionalContent{
+    text-align: center;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+img{
+    width:200px;
+    height:200px;
+}
+.additionalContentImageBanner{
+    margin-top: 20px;
+    margin-right:5%;
+    margin-left:5%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+figure{
+    padding:20px;
+    margin:20px;
+    border-style:solid;
+    min-height:80px;
+    border-color:#DAA520;
+    color:#EEDFAE;
+    background-color:#6d4c41;
+    text-align: center;
 }
