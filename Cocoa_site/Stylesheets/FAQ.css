@@ -24,8 +24,25 @@ img{
     background-color:#6d4c41;
     margin-left:3%;
     margin-right:3%;
-
 }
 .answer, .question{
     margin-top:10px;
+}
+.imageBanner{
+    margin-top: 20px;
+    margin-right:5%;
+    margin-left:5%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+figure{
+    padding:20px;
+    margin:20px;
+    border-style:solid;
+    min-height:80px;
+    border-color:#DAA520;
+    color:#EEDFAE;
+    background-color:#6d4c41;
+    text-align: center;
 }

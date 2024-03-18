@@ -20,7 +20,7 @@ h2{
 h3{
     font-size: 24px;
 }
-p, li{
+p, li, figcaption{
     font-size:20px;
 }
 #top{
@@ -56,4 +56,7 @@ ul>li{
 a{
     color:#3E2723;
     text-decoration: none;
+}
+footer{
+    text-align: center;
 }
