@@ -2,6 +2,31 @@
     padding:0;
     margin:0;
 }
+@media screen and (max-width: 768px) {
+    nav>ul>li>a{
+        color:brown;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    img{
+        max-width: 100%;
+        height:auto;
+    }
+    
+    main{
+        display:flex;
+        flex-direction: column;
+        width:100%;
+        background-color: black;
+        color:white;
+    }
+    h3{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    p{
+        font-family:Georgia, Times, 'Times New Roman', serif;
+        text-decoration: underline;
+    }
+  }
 nav>ul{
     display:flex;
     justify-content: space-around;
