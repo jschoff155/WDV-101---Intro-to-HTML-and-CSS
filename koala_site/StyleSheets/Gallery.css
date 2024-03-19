@@ -1,5 +1,23 @@
+@media screen and (max-width: 768px) {
+    img{
+        max-width: 100%;
+        height:auto;
+    }
+    
+    main{
+        display:flex;
+        flex-direction: column;
+        width:100%;
+        background-color: black;
+        color:white;
+    }
+  }
+figure{
+    min-width:400px;
+    text-align: center;
+}
 img{
-    width:300px;
+    min-width:300px;
 }
 main{
     margin-top:20px;
